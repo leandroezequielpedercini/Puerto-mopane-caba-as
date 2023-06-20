@@ -1,6 +1,6 @@
 // header //
 const cabezal = document.getElementById("cabezal-index-HTML")
-cabezal.innerHTML = '<img src="header/Puerto Mopane.png" alt="Puerto Mopane Cabañas" class="puerto-mopane-cabañas"> <img src="/header/Facebook.png" alt="Facebook" class="facebook" > <img src="/header/instagram.png" alt="Instagram" class="instagram" > <img src="/header/whatsapp.png" alt="Whatsapp" class="whatsapp" > <img src="/header/Movil.png" alt="Movil" class="movil" > <img src="/header/mail.png" alt="E-mial" class="e-mail" > '  
+cabezal.innerHTML = '<img src="header/Puerto Mopane.png" alt="Puerto Mopane Cabañas" class="puerto-mopane-cabañas"> <img src="header/Facebook.png" alt="Facebook" class="facebook" > <img src="header/instagram.png" alt="Instagram" class="instagram" > <img src="header/whatsapp.png" alt="Whatsapp" class="whatsapp" > <img src="header/Movil.png" alt="Movil" class="movil" > <img src="header/mail.png" alt="E-mial" class="e-mail" > '  
 
 // Links //
 const links = document.getElementById("links")
