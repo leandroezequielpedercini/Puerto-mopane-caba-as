@@ -1,18 +1,18 @@
 // header //
 const cabezal = document.getElementById("cabezal-index-HTML")
-cabezal.innerHTML = '<img src="/header/Puerto Mopane.png" alt="Puerto Mopane Cabañas" class="puerto-mopane-cabañas"> <img src="/header/Facebook.png" alt="Facebook" class="facebook" > <img src="/header/instagram.png" alt="Instagram" class="instagram" > <img src="/header/whatsapp.png" alt="Whatsapp" class="whatsapp" > <img src="/header/Movil.png" alt="Movil" class="movil" > <img src="/header/mail.png" alt="E-mial" class="e-mail" > '  
+cabezal.innerHTML = '<img src="header/Puerto Mopane.png" alt="Puerto Mopane Cabañas" class="puerto-mopane-cabañas"> <img src="header/Facebook.png" alt="Facebook" class="facebook" > <img src="header/instagram.png" alt="Instagram" class="instagram" > <img src="header/whatsapp.png" alt="Whatsapp" class="whatsapp" > <img src="header/Movil.png" alt="Movil" class="movil" > <img src="header/mail.png" alt="E-mial" class="e-mail" > '  
 
 // Links //
 const links = document.getElementById("links")
-links.innerHTML = '<a href="/index.html" class="nuestroLugar-HTML">Nuestro lugar</a> <a href="/las-cabañas.html" class="lasCabañas-HTML">Las cabañas</a> <a href="/ubicacion.html" class="ubicacion-HTML">Ubicacion</a><a href="/contacto.html" class="contacto-HTML">Contacto</a>'
+links.innerHTML = '<a href="index.html" class="nuestroLugar-HTML">Nuestro lugar</a> <a href="las-cabañas.html" class="lasCabañas-HTML">Las cabañas</a> <a href="ubicacion.html" class="ubicacion-HTML">Ubicacion</a><a href="contacto.html" class="contacto-HTML">Contacto</a>'
 
 // carrusel //
 const carrusel = document.getElementById("carrusel")
-carrusel.innerHTML = '<div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" id="carrusel-animacion"> <div class="carousel-inner"> <div class="carousel-item active"> <img src="/carrusel/1.jpeg" class="d-block w-100" alt="Puerto Mopane Cabañas"> </div> <div class="carousel-item"> <img src="/carrusel/2.jpeg" class="d-block w-100" alt="Paisaje de las Cabañas"> </div> <div class="carousel-item"> <img src="/carrusel/3.jpeg" class="d-block w-100" alt="Paisaje del predio con los arboles"> </div> </div> <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button> <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Siguiente</span> </button> </div>'
+carrusel.innerHTML = '<div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" id="carrusel-animacion"> <div class="carousel-inner"> <div class="carousel-item active"> <img src="carrusel/1.jpeg" class="d-block w-100" alt="Puerto Mopane Cabañas"> </div> <div class="carousel-item"> <img src="carrusel/2.jpeg" class="d-block w-100" alt="Paisaje de las Cabañas"> </div> <div class="carousel-item"> <img src="carrusel/3.jpeg" class="d-block w-100" alt="Paisaje del predio con los arboles"> </div> </div> <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button> <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Siguiente</span> </button> </div>'
 
 //  Parrafo con imagen //
 const imgparrafo = document.getElementById("img-parrafo")
-imgparrafo.innerHTML = '<p class="Parrafo-con-imagen "> Un lugar para disfrutar...!</p> <img src="/titulo/Pino1.png" alt="Pino" class="pino"> '
+imgparrafo.innerHTML = '<p class="Parrafo-con-imagen "> Un lugar para disfrutar...!</p> <img src="titulo/Pino1.png" alt="Pino" class="pino"> '
 
 // Parrafo solo //
 const parrafo = document.getElementById("parrafo")
