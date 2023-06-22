@@ -14,5 +14,13 @@ const imagen = document.getElementById("imagen")
 imagen.innerHTML = '<img src="carrusel/3.jpeg" alt="Paisaje" class="imagen-portada">' 
 
 /* Descripcion */
-const descripcion = document.getElementById("descripcion")
-descripcion.innerHTML = '<p>El complejo incluye una amplia piscina con deck y solarium, canchas de voley, fútbol y juegos para niños.</p  class="descripcion-p1"> <p>Amplias y cómodas cabañas de 2 a 6 personas. Las mismas cuentan con detalles de confort</p clas="descripcion-p2"> <p>y categoría contando con todos los servicios necesarios para que su estadia sea inolvidable.</p class="descripcion-p3" > <p><h2 class="Equipamiento">Equipamiento:</h2> todas las cabañas cuentan con baño privado (completo), <h6>cocina totalmente equipada, microondas, heladeras, ventiladores, aire acondicionado (frio-calor), mantas y cobertores. TV por cable, internet Wifi y parrillas.</h6> Deck privado y cocheras individuales con media sombra dentro del predio.</p descripcion-p4> <p> DISCULPEN LAS MOLESTIAS, NO ACEPTAMOS MASCOTAS</p clas="descripcion-p5">'
+const descripcion1 = document.getElementById("descripcion-1")
+descripcion1.innerHTML = '<p class="descripcion1-dep1" >El complejo incluye una amplia piscina con deck y solarium, canchas de voley, fútbol y juegos para niños.</p> <p class="descripcion1-dep2">Amplias y cómodas cabañas de 2 a 6 personas. Las mismas cuentan con detalles de confort y categoría contando con todos los servicios  necesarios para que su estadia sea inolvidable.</p> '
+
+/* Descripcion2 */
+const Descripcion2 = document.getElementById("descripcion-2")
+Descripcion2.innerHTML = ' <h2 class="Equipamiento">Equipamiento:</h2> <p class="descripcion2-dep1">todas las cabañas cuentan con baño privado (completo), cocina totalmente equipada, microondas, heladeras, ventiladores, aire acondicionado (frio-calor), mantas y cobertores. TV por cable, internet Wifi y parrillas. Deck privado y cocheras individuales con media sombra dentro del predio.</p> <p class="descripcion2-dep2">DISCULPEN LAS MOLESTIAS, NO ACEPTAMOS MASCOTAS</p> <p class="descripcion2-dep3">Selecciona la imagen de la cabaña de tu gusto y descubri sus caracteristicas</p>'
+
+// Imagen-atardecer //
+const imagenatardecer = document.getElementById("imagen-atardecer")
+imagenatardecer.innerHTML = '<img src="footter/atardecer.jpeg" alt="Atardecer" class="imagen-atardecer">'
