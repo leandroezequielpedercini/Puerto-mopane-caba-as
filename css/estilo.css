@@ -1,8 +1,27 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+   
+    }
+
+
+/* index.html */
+
+
+    @media screen and (max-width: 360px)
+{
+    .toda-la-pagina{
+flex-direction: column;
+
+    }
+
+    .puerto-mopane-cabañas{
+    columns:auto
+    }
+
 }
+
+
 
 /* Fondo de la pagina web */
 body{
@@ -166,8 +185,8 @@ height: 75px;
     margin-left: 10px;    
 }
 
-/* h2-parrafo */
-.h2-parrafo{
+/* h2-parrafo-puerto-mopane */
+.h2-parrafo-puerto-mopane{
     text-decoration-line: underline;
 }
 
@@ -209,6 +228,19 @@ height: 75px;
 .imagen-atardecer{
     width: 100%;
 }
-    
- 
 
+
+/* las-cabañas.html */
+
+/* imagen-portada */
+.imagen-portada{
+     width: 70%;
+     margin-left: 14%;
+    
+}
+
+/* descripcion */
+.descripcion{
+margin-left: 10%;
+width: 100%
+}
